@@ -2,6 +2,7 @@
 build/
 .idea/
 gradle/
+worlds/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
@@ -43,3 +44,4 @@ bin/
 ### Mac OS ###
 .DS_Store
 /gradle/
+/worlds/
