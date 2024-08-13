@@ -1,4 +1,4 @@
-package dev.uberviir.megaviir.BlockHandlers;
+package dev.xlfrie.megaviir.BlockHandlers;
 
 import net.minestom.server.instance.block.BlockHandler;
 import net.minestom.server.tag.Tag;

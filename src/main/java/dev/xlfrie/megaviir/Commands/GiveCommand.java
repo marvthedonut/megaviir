@@ -1,13 +1,9 @@
-package dev.uberviir.megaviir.Commands;
+package dev.xlfrie.megaviir.Commands;
 
 import net.minestom.server.MinecraftServer;
 import net.minestom.server.command.builder.Command;
 import net.minestom.server.command.builder.arguments.ArgumentType;
-import net.minestom.server.event.EventNode;
-import net.minestom.server.item.ItemStack;
 import net.minestom.server.item.Material;
-import net.minestom.server.listener.manager.PacketListenerManager;
-import net.minestom.server.network.packet.server.play.ChunkBatchStartPacket;
 
 public class GiveCommand extends Command {
     public GiveCommand() {

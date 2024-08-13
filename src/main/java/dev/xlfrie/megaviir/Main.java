@@ -1,23 +1,18 @@
-package dev.uberviir.megaviir;
+package dev.xlfrie.megaviir;
 
-import dev.uberviir.megaviir.BlockHandlers.SkullBlockHandler;
-import dev.uberviir.megaviir.Commands.GiveCommand;
+import dev.xlfrie.megaviir.BlockHandlers.SkullBlockHandler;
+import dev.xlfrie.megaviir.Commands.GiveCommand;
 import net.minestom.server.MinecraftServer;
 import net.minestom.server.coordinate.Pos;
 import net.minestom.server.entity.GameMode;
 import net.minestom.server.entity.Player;
-import net.minestom.server.event.Event;
-import net.minestom.server.event.EventListener;
-import net.minestom.server.event.EventNode;
 import net.minestom.server.event.GlobalEventHandler;
 import net.minestom.server.event.player.AsyncPlayerConfigurationEvent;
-import net.minestom.server.event.player.PlayerBlockPlaceEvent;
 import net.minestom.server.extras.MojangAuth;
 import net.minestom.server.instance.InstanceContainer;
 import net.minestom.server.instance.InstanceManager;
 import net.minestom.server.instance.LightingChunk;
 import net.minestom.server.instance.anvil.AnvilLoader;
-import net.minestom.server.listener.BlockPlacementListener;
 import net.minestom.server.utils.NamespaceID;
 
 import java.nio.file.Path;
