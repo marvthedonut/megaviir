@@ -41,6 +41,6 @@ public class Main {
         new GiveCommand();
 
         MojangAuth.init();
-        minecraftServer.start("127.0.0.1", 25565);
+        minecraftServer.start("192.168.50.34", 25565);
     }
 }
